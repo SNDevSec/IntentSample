@@ -25,7 +25,7 @@ public class MenuThanksActivity extends AppCompatActivity {
         tvMenuPrice.setText(menuPrice);
     }
 
-    public void onBackButtonClick(View view){
-        finish();
+    public void onBackButtonClick(View view){ //戻るボタンの処理
+        finish(); //このアクティビティを終了=MainActivityに"戻る"
     }
 }
